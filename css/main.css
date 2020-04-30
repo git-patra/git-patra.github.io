@@ -265,6 +265,13 @@ nav.nav-center ul li a {
     top: 5px;
 }
 
+/* Animated */
+.fadeInRight,
+.fadeInLeft,
+.zoomIn {
+    animation-duration: 1.5s !important;
+}
+
 @media screen and (max-width: 1024px) {
     .achievement img {
         max-width: 300px;
@@ -295,7 +302,7 @@ nav.nav-center ul li a {
     }
 
     .mikrotik {
-        margin-left: 3rem;
+        margin-left: 0 !important;
     }
 
     .col-work {
